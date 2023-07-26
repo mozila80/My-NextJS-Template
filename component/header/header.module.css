@@ -1,0 +1,58 @@
+.container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    padding: 25px;
+    margin: 25px 500px 0 500px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 0px 1px;
+    transition: 0.5s ease;
+}
+
+.navbar a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar a:hover,
+.navbar a:active,
+.navbar a:focus {
+    color: rgba(255, 255, 255, 1);
+}
+
+.scrolled {
+    height: 75px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 0;
+    border-radius: 0;
+    transition: 0.3s ease;
+}
+
+.logo {
+    display: flex;
+    height: auto;
+}
+
+.menu__desktop {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    list-style-type: none;
+    margin-left: -55px;
+}

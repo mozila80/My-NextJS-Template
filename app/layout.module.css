@@ -1,0 +1,13 @@
+.skip__content {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    padding: 8px;
+    background-color: #222831;
+    color: #ffffff;
+    z-index: 100;
+}
+
+.skip__content:focus {
+    top: 0;
+}

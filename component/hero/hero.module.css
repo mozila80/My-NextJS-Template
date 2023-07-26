@@ -1,0 +1,9 @@
+.container {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}

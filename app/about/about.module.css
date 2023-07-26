@@ -1,0 +1,11 @@
+.container {
+    background-color: #1d1d1d;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.wrapper {
+    min-height: 1000px;
+    padding: 50px 500px;
+}
